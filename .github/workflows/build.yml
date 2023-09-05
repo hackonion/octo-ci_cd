@@ -35,4 +35,4 @@ jobs:
         run: |
           echo "Secret access: ${{ secrets.AWS_ACCESS_KEY }}"
           echo "test, and deploy your project."
-          echo "This is a test: ${{ var.TEST}}"
+          echo "This is a test: ${{ vars.TEST}}"
